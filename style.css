@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+
+     background-color: black; 
+     color: #ffffff; 
+
+        background-image: url('1/photo/photo15.jpg'); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+    
+}
+
+header {
+    background-color: #f4f4f4;
+    color: #333;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: #ccc 1px solid;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Gowun Dodum', sans-serif; 
+}
+
+.gowun-dodum-regular {
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.about-me, .contact, .food, .food2, .im, .im2 {
+    padding: 20px;
+    font-family: 'Gowun Dodum', sans-serif;
+    width: 100%;
+text-align: center;
+
+}
+
+.about-me img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact p, .contact a {
+    line-height: 2;
+}
+
+.contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+.slider-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.foodphotos {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+
+.photo {
+    width: calc(100% - 10px); 
+}
+
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+    padding-left: 0;
+}
+
+.margin{
+    margin-bottom: 100px;
+}
+
+.cat-container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.cat {
+    display: flex;
+}
+
+.photo {
+    width: calc(25% - 20px); 
+    margin-right: 20px; 
+}
+
+.content-container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+.photo:last-child {
+    margin-right: 0;
+}
+
+.moving {
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
